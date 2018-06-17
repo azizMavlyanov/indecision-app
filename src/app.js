@@ -1,6 +1,6 @@
-console.log("Hi");
+import React from 'react';
+import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
 
-let template = <p>Changed</p>;
-let appRoot = document.getElementById("app");
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
